@@ -38,11 +38,13 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 50px;
-    column-gap: 30px;
+    column-gap: 30px;       
 }
 
 .sec-2 {
     display: grid;
+    grid-column: 1/1;
+    grid-row: 1/1;    
 }
 
 .text {
@@ -90,12 +92,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: end;
+    
 }
 
 .sec-1 {
-    display: block;
+    display: block;    
     margin: auto;
     max-width: 450px;
+    grid-column: 2/2;
 
 }
 
@@ -128,8 +132,18 @@ img {
     .container {
         grid-template-columns: 1fr;
         padding: 0;
+        grid-column: 1/1;
     }
 
+    .sec-1 {
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    .sec-2 {
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
     .sec-2 h1 {
         font-size: 2rem;
         text-align: center;
@@ -150,7 +164,7 @@ img {
         padding: 10px;        
     }
 
-    .butt button {
+    .butt button {        
         height: 40px;
     }
 
