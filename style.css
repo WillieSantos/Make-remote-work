@@ -41,7 +41,7 @@ img {
     column-gap: 30px;
 }
 
-.sec-1 {
+.sec-2 {
     display: grid;
 }
 
@@ -92,7 +92,7 @@ img {
     align-items: end;
 }
 
-.sec-2 {
+.sec-1 {
     display: block;
     margin: auto;
     max-width: 450px;
@@ -130,14 +130,14 @@ img {
         padding: 0;
     }
 
-    .sec-1 h1 {
+    .sec-2 h1 {
         font-size: 2rem;
         text-align: center;
         margin: 0;
         padding: 10px;
     }
 
-    .sec-1 p {
+    .sec-2 p {
         font-size: 0.9rem;
         text-align: center;
         margin: 0;
@@ -171,8 +171,8 @@ img {
         padding: 10px;
     }
 
-    .sec-2 img {
-        
+    .sec-2 {
+        padding: 10px;
     }
 
     }
